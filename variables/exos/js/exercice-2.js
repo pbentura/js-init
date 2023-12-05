@@ -33,16 +33,17 @@ const array5 = ['Mazda', 'Mercedes', 'Audi', 'Ford', 'Aston Martin'];
 //Transformer le tableau en chaine
 // Résultat attendu 1 : 'User1User2User3User4'
 // Résultat attendu 2 : 'User1-User2-User3-User4'
+console.log(array5.toString())
 const array6 = ['User1', 'User2', 'User3','User4'];
 
 // Ajouter un element 'Canard'
 // Résultat attendu : ['Cochon', 'Chèvre', 'Mouton', 'Canard']
 const array7 = ['Cochon', 'Chèvre', 'Mouton'];
-
+console.log(array7.push('canard'))
 // Inverser l'ordre
 // Résultat attendu : ['Pc', 'Switch', 'Xbox', 'Playstation']
 const array8 = ['Playstation', 'Xbox', 'Switch','Pc'];
-
+console.log(array8.reverse())
 // Trier dans l'ordre alphabétique , croissant
 // Résultat attendu : Array ["Alfred", "Bill", "Joe", "Robert"]
 // Résultat attendu : Array [1, 100000, 21, 30, 4]

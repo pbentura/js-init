@@ -17,4 +17,4 @@ function findLongestWord(str)
     }
     return result;
 }
-console.log(findLongestWord('Web Development Tutorial'));
+console.log(findLongestWord('le poulet cest trop bon'));

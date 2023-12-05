@@ -6,3 +6,13 @@ console.log("Script condition-1 chargé !")
 
 
 // Ecrire votre code ici, afficher le jeu video à l'aide de console.log('votre réponse')
+const ageJoueur = prompt('quel âge avez vous')
+if(ageJoueur<=13){
+    console.log('fortnite')
+}
+else if(ageJoueur>13 && ageJoueur<18){
+    console.log('call of duty ou fifa 23')
+}
+else{
+    console.log('diablo')
+}

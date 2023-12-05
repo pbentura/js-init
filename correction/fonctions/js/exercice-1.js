@@ -16,4 +16,4 @@ function reverseNumber(n)
     // Version One line
     // return Number(n.toString().split("").reverse().join(""));
 }
-console.log(reverseNumber(1122334455));
+console.log(reverseNumber(12345));
